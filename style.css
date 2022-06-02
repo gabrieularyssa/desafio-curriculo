@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+.corpo{
+background-color: rgb(255, 255, 255);
+width: 100%;
+height: 100%;
+border-radius: 10px;
+}
+.box-um{
+background: rgba(79, 133, 194, 0.87);
+width: 100%;
+height: 250px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+#perfil{
+width: 250px;
+height: 290px;
+}
+#nome{
+text-align: center;
+font-family: 'Zen Kurenaido';
+font-size: 40px;
+}
+.apresentacao{
+background-color: white;
+margin:120px 0px;
+width: 250px;
+height: 290px;
+display:flex ;
+flex-wrap: wrap;
+flex-direction: row;  
+}
+.inf{
+margin:120px 0px;
+background-color: rgb(255, 255, 255);
+width: 450px;
+height: 250px;
+display: flex;
+flex-direction:column;
+}
+#inf{
+font-weight: bold;
+text-align: center;
+padding-left: 20px;
+font-family:'Zen Kurenaido';
+font-size: 20px;
+}
+.inferior{
+margin:120px 567px;
+background-color:rgba(79, 133, 194, 0.87) ;
+width: 450px;
+height: 40px;
+display: flex;
+}
+#email {
+padding-top: 5px;
+padding-left: 110px;
+width: 30px;
+height: 30px;
+}
+#git{
+padding-top: 5px;
+padding-left: 70px;
+width: 30px;
+height: 30px;
+}
+#linkedin{
+padding-top: 5px;
+padding-left: 110px;
+width: 30px;
+height: 30px;
+}
+h1{
+ color: white;
+text-align: center;
+ 
+}
+.barra{
+ margin: 50px auto;
+ background-color:rgba(79, 133, 194, 0.87) ;
+ height: 50px;
+ width: 700px;
+ text-align: center;
+}
+
+#bold{
+ font-family:'Zen Kurenaido';
+ font-weight: bold;
+ font-size: 20px;
+}
+#final{
+ padding-bottom: 50px;
+}
